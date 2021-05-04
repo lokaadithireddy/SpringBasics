@@ -1,7 +1,7 @@
 # SpringBasics
 
 
-Basic Spring POC explaining Dependency Injection, Application Context, Tight coupling, Loose coupling, AutoWiring.
+Basic Spring POC explaining Dependency Injection, Application Context, Tight coupling, Loose coupling, AutoWiring, Beans, Inversion of Control.
 
 
 Annotations - @Component, @Autowired, @Primary, @SpringBootApplication
