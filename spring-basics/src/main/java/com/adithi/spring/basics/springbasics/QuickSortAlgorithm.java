@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 //Primary is preferred over other components
 @Component
 @Primary
+//Can use @Qualifier("quick") too to resolve ambiguity.
 public class QuickSortAlgorithm implements SortAlgorithm{
 	
     public void quicksort(int[] nums, int start, int end) {
