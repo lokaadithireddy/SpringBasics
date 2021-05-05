@@ -31,6 +31,12 @@ public class SpringBasicsApplication {
 		
 		ApplicationContext applicationContext = SpringApplication.run(SpringBasicsApplication.class, args);
 		BinarySearch binarySearch = applicationContext.getBean(BinarySearch.class);
+		BinarySearch binarySearch1 = applicationContext.getBean(BinarySearch.class);
+		
+		//To check scope of single vs prototype.
+		System.out.println(binarySearch);
+		System.out.println(binarySearch1);
+		
 		int result = binarySearch.bSearch(new int[] {12,4,5,19,3,9},12);
 		//com.adithi.spring.basics.springbasics.BubbleSortAlgorithm@7e809b79
 		System.out.println("Index is "+result);
